@@ -1,0 +1,27 @@
+---
+description: Ensure 100% demo reliability without external APIs, network dependencies, or API keys
+globs: "*.py, *.json, requirements.txt, tests/*.py"
+alwaysApply: true
+---
+
+# Demo Reliability Rule
+
+Ensure flawless workshop and classroom demonstrations:
+
+1. **Zero External APIs:**
+   - The application must not make outbound HTTP/REST calls to LinkedIn, OpenAI, job boards, or external web services.
+
+2. **No API Keys Required:**
+   - The system must function completely out-of-the-box without requiring `.env` files, API secrets, or credit card configurations.
+
+3. **Complete Offline Capability:**
+   - All role datasets and student samples must reside in local JSON files. The application must run without internet access.
+
+4. **Working Sample Profile:**
+   - The default sample profile ("Harsha") must load reliably with a single click and produce an explainable top recommendation.
+
+5. **Useful & Friendly Error Messages:**
+   - Input errors must be caught gracefully and surfaced as actionable, human-readable notifications.
+
+6. **Deterministic Results:**
+   - Running the demonstration multiple times with identical inputs must always generate identical scores and roadmaps.

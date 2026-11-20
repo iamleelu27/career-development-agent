@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Harsha",
+    "degree": "B.Tech Computer Science",
+    "skills": {
+      "Python": 7,
+      "Cloud": 5,
+      "Kubernetes": 3,
+      "AI/LLM": 4
+    },
+    "interests": [
+      "Cloud",
+      "AI"
+    ],
+    "existing_projects": [
+      "Chatbot"
+    ],
+    "certifications": [],
+    "preferred_industries": [],
+    "available_weekly_hours": 8,
+    "learning_timeframe_months": 6
+  }
+]

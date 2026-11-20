@@ -1,0 +1,31 @@
+---
+description: Enforce Python quality standards including type hints, docstrings, pathlib, clear exceptions, constants, and deterministic readable code
+globs: "*.py, tests/*.py"
+alwaysApply: true
+---
+
+# Python Quality Rule
+
+Ensure all Python code adheres to rigorous quality standards:
+
+1. **Type Hints:**
+   - Every function and method signature must include comprehensive argument and return type annotations.
+   - Use standard library `typing` primitives (`List`, `Dict`, `Tuple`, `Optional`, `Set`).
+
+2. **Docstrings:**
+   - Every module, class, and public function must provide Google or Sphinx-style docstrings explaining purpose, arguments, return values, and raised exceptions.
+
+3. **File System Paths:**
+   - Use `pathlib.Path` exclusively for file path manipulation. Do not use raw string concatenation or `os.path`.
+
+4. **Exception Handling:**
+   - Raise explicit, meaningful exceptions (`FileNotFoundError`, `ValueError`, `KeyError`) with descriptive error messages.
+
+5. **Constants & Immutability:**
+   - Name module-level constants in uppercase (e.g., `WEIGHT_SKILL`, `SKILL_ALIASES`).
+
+6. **Deterministic Behavior:**
+   - Avoid non-deterministic operations (unseeded random functions, set iteration order dependencies). The same inputs must always generate identical outputs.
+
+7. **Readable & Beginner-Friendly:**
+   - Keep code idiomatic, modular, clean, and accessible to learners.

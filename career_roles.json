@@ -1,0 +1,1025 @@
+[
+  {
+    "role_name": "AI Platform Engineer",
+    "description": "Designs, builds, and maintains infrastructure, deployment pipelines, and scalable runtimes for artificial intelligence and machine learning models in production.",
+    "interests": [
+      "Cloud",
+      "Artificial Intelligence",
+      "DevOps",
+      "Infrastructure",
+      "Automation"
+    ],
+    "industries": [
+      "Technology",
+      "Cloud Computing",
+      "Enterprise AI",
+      "FinTech",
+      "Healthcare Technology"
+    ],
+    "required_skills": [
+      {
+        "name": "Python",
+        "importance": 5,
+        "target_proficiency": 8
+      },
+      {
+        "name": "Cloud",
+        "importance": 5,
+        "target_proficiency": 7
+      },
+      {
+        "name": "Kubernetes",
+        "importance": 4,
+        "target_proficiency": 7
+      },
+      {
+        "name": "Artificial Intelligence",
+        "importance": 4,
+        "target_proficiency": 7
+      },
+      {
+        "name": "MLOps",
+        "importance": 4,
+        "target_proficiency": 6
+      },
+      {
+        "name": "Linux",
+        "importance": 3,
+        "target_proficiency": 6
+      }
+    ],
+    "optional_certifications": [
+      "AWS Certified Solutions Architect - Associate",
+      "CKA (Certified Kubernetes Administrator)",
+      "Google Cloud Professional Machine Learning Engineer"
+    ],
+    "recommended_projects": [
+      "Scalable Chatbot Service with Streaming API",
+      "High-Throughput LLM Model Serving Gateway on Kubernetes",
+      "Automated Continuous Integration and Model Validation Pipeline",
+      "Vector Database Integration and Semantic Search System"
+    ],
+    "learning_sequence": [
+      {
+        "month": 1,
+        "topic": "Advanced Python & Cloud Infrastructure Foundations",
+        "skills": ["Python", "Cloud", "Linux"],
+        "deliverable": "Containerized asynchronous API service running on a cloud virtual instance with health checks and logging.",
+        "completion_criteria": "API responds with sub-50ms latency, runs in an isolated container, and passes unit tests."
+      },
+      {
+        "month": 2,
+        "topic": "Container Orchestration with Kubernetes",
+        "skills": ["Kubernetes", "Linux"],
+        "deliverable": "Multi-tier microservice deployed on a local or cloud Kubernetes cluster with declarative manifests and ingress.",
+        "completion_criteria": "Pods scale horizontally under simulated load and recover automatically from pod termination."
+      },
+      {
+        "month": 3,
+        "topic": "AI & LLM Model Serving Runtimes",
+        "skills": ["Artificial Intelligence", "Python"],
+        "deliverable": "Model inference endpoint serving open-weights LLMs with token streaming, batching, and caching.",
+        "completion_criteria": "Inference endpoint sustains 20 concurrent requests without timeout or memory exhaustion."
+      },
+      {
+        "month": 4,
+        "topic": "MLOps & CI/CD Workflow Automation",
+        "skills": ["MLOps", "DevOps"],
+        "deliverable": "End-to-end CI/CD workflow automating linting, testing, container packaging, and deployment.",
+        "completion_criteria": "Git push triggers automated pipeline resulting in verified deployment to staging."
+      },
+      {
+        "month": 5,
+        "topic": "Observability, Telemetry & Reliability",
+        "skills": ["Cloud", "Kubernetes"],
+        "deliverable": "Prometheus metrics collection, Grafana dashboard, and alerting setup for latency and error rate.",
+        "completion_criteria": "Dashboard displays real-time request rates, p95 latencies, and resource consumption."
+      },
+      {
+        "month": 6,
+        "topic": "Production AI Platform Capstone Project",
+        "skills": ["Python", "Kubernetes", "Artificial Intelligence", "MLOps"],
+        "deliverable": "Complete scalable AI platform hosting a production-grade chatbot or prediction API with automated scaling.",
+        "completion_criteria": "Project is fully documented, tested, reproducible via infrastructure-as-code, and demonstrated end-to-end."
+      }
+    ]
+  },
+  {
+    "role_name": "Cloud Engineer",
+    "description": "Architects, provisions, and manages secure, scalable, and resilient cloud infrastructure and services across enterprise environments.",
+    "interests": [
+      "Cloud",
+      "Networking",
+      "Infrastructure",
+      "Security",
+      "Automation"
+    ],
+    "industries": [
+      "Technology",
+      "Finance",
+      "Consulting",
+      "Telecommunications",
+      "E-Commerce"
+    ],
+    "required_skills": [
+      {
+        "name": "Cloud",
+        "importance": 5,
+        "target_proficiency": 8
+      },
+      {
+        "name": "Linux",
+        "importance": 4,
+        "target_proficiency": 7
+      },
+      {
+        "name": "Networking",
+        "importance": 4,
+        "target_proficiency": 7
+      },
+      {
+        "name": "Python",
+        "importance": 3,
+        "target_proficiency": 6
+      },
+      {
+        "name": "Infrastructure as Code",
+        "importance": 4,
+        "target_proficiency": 7
+      },
+      {
+        "name": "Security",
+        "importance": 3,
+        "target_proficiency": 6
+      }
+    ],
+    "optional_certifications": [
+      "AWS Certified Solutions Architect - Associate",
+      "Microsoft Certified: Azure Administrator Associate",
+      "Terraform Associate (HashiCorp)"
+    ],
+    "recommended_projects": [
+      "Terraform-Automated Multi-Tier VPC Deployment",
+      "Serverless Event-Driven Processing System",
+      "Cloud Security Auditing and Compliance Script"
+    ],
+    "learning_sequence": [
+      {
+        "month": 1,
+        "topic": "Cloud Computing Fundamentals & IAM",
+        "skills": ["Cloud", "Security"],
+        "deliverable": "Configured cloud account with multi-account organizational structure and least-privilege IAM policies.",
+        "completion_criteria": "Audit report confirms zero root-user access and enforced MFA across all users."
+      },
+      {
+        "month": 2,
+        "topic": "Virtual Private Clouds & Networking",
+        "skills": ["Networking", "Cloud"],
+        "deliverable": "Custom VPC architecture spanning public/private subnets, NAT gateways, and routing tables.",
+        "completion_criteria": "Private instances can route outbound traffic through NAT without direct internet exposure."
+      },
+      {
+        "month": 3,
+        "topic": "Linux Administration & Compute Services",
+        "skills": ["Linux", "Cloud"],
+        "deliverable": "Hardened Linux compute fleet with automated provisioning and SSH key governance.",
+        "completion_criteria": "Automated security checklist passes with zero high-severity vulnerabilities."
+      },
+      {
+        "month": 4,
+        "topic": "Infrastructure as Code (IaC) with Terraform",
+        "skills": ["Infrastructure as Code", "Cloud"],
+        "deliverable": "Reusable Terraform module library provisioning modular cloud resources with remote state management.",
+        "completion_criteria": "Terraform plan and apply succeed idempotently across multiple workspaces."
+      },
+      {
+        "month": 5,
+        "topic": "Storage, Databases & Serverless Compute",
+        "skills": ["Cloud", "Python"],
+        "deliverable": "Serverless event pipeline ingesting, transforming, and persisting structured data into managed storage.",
+        "completion_criteria": "System processes 1,000 incoming events within 10 seconds without data loss."
+      },
+      {
+        "month": 6,
+        "topic": "High Availability, Disaster Recovery & Capstone",
+        "skills": ["Cloud", "Networking", "Infrastructure as Code"],
+        "deliverable": "Multi-region disaster-recovery architecture with automated failover and health check routing.",
+        "completion_criteria": "Simulated primary region outage triggers secondary region DNS cutover in under 2 minutes."
+      }
+    ]
+  },
+  {
+    "role_name": "DevOps Engineer",
+    "description": "Bridges software engineering and system operations by standardizing CI/CD pipelines, containerization, and automated platform engineering.",
+    "interests": [
+      "DevOps",
+      "Automation",
+      "Cloud",
+      "Scripting",
+      "Infrastructure"
+    ],
+    "industries": [
+      "Software",
+      "FinTech",
+      "Entertainment",
+      "SaaS",
+      "Retail"
+    ],
+    "required_skills": [
+      {
+        "name": "DevOps",
+        "importance": 5,
+        "target_proficiency": 8
+      },
+      {
+        "name": "Kubernetes",
+        "importance": 4,
+        "target_proficiency": 7
+      },
+      {
+        "name": "Cloud",
+        "importance": 4,
+        "target_proficiency": 7
+      },
+      {
+        "name": "Python",
+        "importance": 3,
+        "target_proficiency": 6
+      },
+      {
+        "name": "Linux",
+        "importance": 4,
+        "target_proficiency": 7
+      },
+      {
+        "name": "Git",
+        "importance": 4,
+        "target_proficiency": 8
+      }
+    ],
+    "optional_certifications": [
+      "CKA (Certified Kubernetes Administrator)",
+      "Docker Certified Associate",
+      "AWS Certified DevOps Engineer - Professional"
+    ],
+    "recommended_projects": [
+      "Full GitOps Continuous Delivery Pipeline with ArgoCD",
+      "Automated Multi-Stage Docker Build and Vulnerability Scanning Pipeline",
+      "Infrastructure Monitoring and PagerDuty Alerting Integration"
+    ],
+    "learning_sequence": [
+      {
+        "month": 1,
+        "topic": "Version Control, Git Branching Strategies & Linux",
+        "skills": ["Git", "Linux"],
+        "deliverable": "Standardized Git workflow repository with branch protection, PR templates, and shell automation.",
+        "completion_criteria": "All pull requests enforce semantic commits and passing status checks before merge."
+      },
+      {
+        "month": 2,
+        "topic": "Containerization with Docker",
+        "skills": ["DevOps", "Linux"],
+        "deliverable": "Optimized multi-stage Dockerfiles with non-root security profiles for polyglot services.",
+        "completion_criteria": "Image size reduced by over 60% with zero critical vulnerabilities reported by container scanners."
+      },
+      {
+        "month": 3,
+        "topic": "Continuous Integration Pipelines",
+        "skills": ["DevOps", "Python"],
+        "deliverable": "Automated GitHub Actions CI pipeline running unit tests, linting, security scans, and image publishing.",
+        "completion_criteria": "Pipeline completes in under 3 minutes with build artifact published to container registry."
+      },
+      {
+        "month": 4,
+        "topic": "Container Orchestration with Kubernetes",
+        "skills": ["Kubernetes", "DevOps"],
+        "deliverable": "Production-ready Helm charts encapsulating application deployments, ingress, and config maps.",
+        "completion_criteria": "Helm install runs smoothly across development, testing, and production environments."
+      },
+      {
+        "month": 5,
+        "topic": "GitOps Continuous Deployment",
+        "skills": ["Kubernetes", "DevOps"],
+        "deliverable": "GitOps workflow using ArgoCD syncing cluster state directly from a declarative Git repository.",
+        "completion_criteria": "Cluster state automatically synchronizes to Git HEAD within 60 seconds of merge."
+      },
+      {
+        "month": 6,
+        "topic": "Reliability Engineering & Capstone Pipeline",
+        "skills": ["DevOps", "Cloud", "Kubernetes"],
+        "deliverable": "End-to-end zero-downtime blue/green deployment pipeline with canary verification and rollback.",
+        "completion_criteria": "Canary deployment detects simulated errors and initiates automatic rollback without user downtime."
+      }
+    ]
+  },
+  {
+    "role_name": "Site Reliability Engineer",
+    "description": "Applies software engineering disciplines to infrastructure and operations problems to create ultra-scalable, reliable, and fault-tolerant software systems.",
+    "interests": [
+      "Reliability",
+      "Infrastructure",
+      "Cloud",
+      "DevOps",
+      "Automation"
+    ],
+    "industries": [
+      "High-Frequency Trading",
+      "SaaS",
+      "Cloud Infrastructure",
+      "E-Commerce",
+      "Gaming"
+    ],
+    "required_skills": [
+      {
+        "name": "Linux",
+        "importance": 5,
+        "target_proficiency": 8
+      },
+      {
+        "name": "Kubernetes",
+        "importance": 4,
+        "target_proficiency": 7
+      },
+      {
+        "name": "Python",
+        "importance": 4,
+        "target_proficiency": 7
+      },
+      {
+        "name": "Cloud",
+        "importance": 4,
+        "target_proficiency": 7
+      },
+      {
+        "name": "Monitoring and Observability",
+        "importance": 5,
+        "target_proficiency": 8
+      },
+      {
+        "name": "Networking",
+        "importance": 3,
+        "target_proficiency": 6
+      }
+    ],
+    "optional_certifications": [
+      "CKA (Certified Kubernetes Administrator)",
+      "Google Cloud Certified Professional Cloud DevOps Engineer"
+    ],
+    "recommended_projects": [
+      "Automated Chaos Engineering Fault Injection Framework",
+      "SLO/SLI Error Budget Tracking Dashboard",
+      "Incident Response Runbook Automation Bot"
+    ],
+    "learning_sequence": [
+      {
+        "month": 1,
+        "topic": "Linux Systems Internals & Performance Tuning",
+        "skills": ["Linux", "Networking"],
+        "deliverable": "Diagnostic script benchmarking CPU, disk I/O, network sockets, and kernel parameters.",
+        "completion_criteria": "Script outputs actionable system health metrics and identifies system bottlenecks."
+      },
+      {
+        "month": 2,
+        "topic": "SLIs, SLOs & Error Budgets",
+        "skills": ["Monitoring and Observability"],
+        "deliverable": "Service Level Objective framework defining availability and latency thresholds for critical services.",
+        "completion_criteria": "Error budget burn-rate alerts notify appropriate channels before budget exhaustion."
+      },
+      {
+        "month": 3,
+        "topic": "Distributed Tracing and Observability Stacks",
+        "skills": ["Monitoring and Observability", "Python"],
+        "deliverable": "OpenTelemetry instrumented application sending traces to Jaeger and metrics to Prometheus.",
+        "completion_criteria": "End-to-end request traces pinpoint downstream microservice latency bottlenecks."
+      },
+      {
+        "month": 4,
+        "topic": "Incident Management & Runbook Automation",
+        "skills": ["Python", "Linux"],
+        "deliverable": "Automated incident response bot executing remediation playbooks upon receiving alerts.",
+        "completion_criteria": "Bot handles simulated unresponsive service by taking diagnostic dumps and restarting safely."
+      },
+      {
+        "month": 5,
+        "topic": "Chaos Engineering & Fault Tolerance",
+        "skills": ["Kubernetes", "DevOps"],
+        "deliverable": "Chaos test suite introducing network partitions, packet loss, and pod termination in a test cluster.",
+        "completion_criteria": "System maintains 99.9% availability during simulated availability zone failure."
+      },
+      {
+        "month": 6,
+        "topic": "Production Readiness Review & Capstone",
+        "skills": ["Linux", "Kubernetes", "Monitoring and Observability"],
+        "deliverable": "Production readiness assessment and disaster recovery drill for a mission-critical web application.",
+        "completion_criteria": "Zero data loss achieved and RTO under 5 minutes during simulated total node failure."
+      }
+    ]
+  },
+  {
+    "role_name": "Data Engineer",
+    "description": "Constructs robust, scalable data ingestion pipelines, storage architectures, and processing workflows to feed analytics and machine learning systems.",
+    "interests": [
+      "Data",
+      "Databases",
+      "Cloud",
+      "Pipelines",
+      "Analytics"
+    ],
+    "industries": [
+      "FinTech",
+      "Retail",
+      "Health Care",
+      "Digital Media",
+      "Enterprise Tech"
+    ],
+    "required_skills": [
+      {
+        "name": "Python",
+        "importance": 5,
+        "target_proficiency": 8
+      },
+      {
+        "name": "SQL",
+        "importance": 5,
+        "target_proficiency": 8
+      },
+      {
+        "name": "Data Pipelines",
+        "importance": 5,
+        "target_proficiency": 7
+      },
+      {
+        "name": "Cloud",
+        "importance": 4,
+        "target_proficiency": 7
+      },
+      {
+        "name": "Databases",
+        "importance": 4,
+        "target_proficiency": 7
+      },
+      {
+        "name": "Distributed Computing",
+        "importance": 3,
+        "target_proficiency": 6
+      }
+    ],
+    "optional_certifications": [
+      "Databricks Certified Data Engineer Associate",
+      "AWS Certified Data Engineer - Associate",
+      "Google Cloud Professional Data Engineer"
+    ],
+    "recommended_projects": [
+      "Automated End-to-End ETL Pipeline using Apache Airflow",
+      "Streaming Data Analytics Pipeline with Kafka and Spark",
+      "Modern Data Warehouse with dbt and Snowflake"
+    ],
+    "learning_sequence": [
+      {
+        "month": 1,
+        "topic": "Advanced SQL & Relational Data Modeling",
+        "skills": ["SQL", "Databases"],
+        "deliverable": "Normalized and star-schema dimensional models with analytical window functions and query optimization.",
+        "completion_criteria": "Complex analytical queries execute under 100ms on benchmark datasets."
+      },
+      {
+        "month": 2,
+        "topic": "Python Data Manipulation & Pipeline Design",
+        "skills": ["Python", "Data Pipelines"],
+        "deliverable": "Object-oriented ETL script extracting data from REST APIs, transforming with Pandas, and loading into PostgreSQL.",
+        "completion_criteria": "Data pipeline features automated data validation, idempotency, and error handling."
+      },
+      {
+        "month": 3,
+        "topic": "Data Pipeline Orchestration with Airflow",
+        "skills": ["Data Pipelines", "Python"],
+        "deliverable": "Multi-DAG Apache Airflow pipeline managing task dependencies, retries, and alerting.",
+        "completion_criteria": "DAGs run on scheduled triggers and recover cleanly from simulated upstream failure."
+      },
+      {
+        "month": 4,
+        "topic": "Distributed Data Processing with PySpark",
+        "skills": ["Distributed Computing", "Python"],
+        "deliverable": "PySpark batch job processing multi-gigabyte datasets with partitioning and caching optimizations.",
+        "completion_criteria": "Job executes across distributed workers without data skew or out-of-memory errors."
+      },
+      {
+        "month": 5,
+        "topic": "Data Warehousing & Analytics Engineering with dbt",
+        "skills": ["SQL", "Databases"],
+        "deliverable": "Modular dbt project generating verified data models with schema testing and auto-generated documentation.",
+        "completion_criteria": "All dbt test suites pass with zero nulls or orphaned foreign keys in production models."
+      },
+      {
+        "month": 6,
+        "topic": "Real-Time Streaming & End-to-End Capstone",
+        "skills": ["Data Pipelines", "Distributed Computing", "Cloud"],
+        "deliverable": "End-to-end streaming data platform combining event generation, processing, and real-time dashboarding.",
+        "completion_criteria": "Pipeline delivers real-time metrics with end-to-end latency under 5 seconds."
+      }
+    ]
+  },
+  {
+    "role_name": "Data Analyst",
+    "description": "Transforms raw business and application data into actionable insights, dashboards, statistical summaries, and strategic recommendations.",
+    "interests": [
+      "Analytics",
+      "Visualization",
+      "Business Intelligence",
+      "Statistics",
+      "Data"
+    ],
+    "industries": [
+      "E-Commerce",
+      "Finance",
+      "Marketing",
+      "Consulting",
+      "Healthcare"
+    ],
+    "required_skills": [
+      {
+        "name": "SQL",
+        "importance": 5,
+        "target_proficiency": 8
+      },
+      {
+        "name": "Python",
+        "importance": 4,
+        "target_proficiency": 7
+      },
+      {
+        "name": "Data Visualization",
+        "importance": 5,
+        "target_proficiency": 8
+      },
+      {
+        "name": "Statistics",
+        "importance": 4,
+        "target_proficiency": 7
+      },
+      {
+        "name": "Databases",
+        "importance": 3,
+        "target_proficiency": 6
+      }
+    ],
+    "optional_certifications": [
+      "Microsoft Certified: Power BI Data Analyst Associate",
+      "Tableau Desktop Specialist",
+      "Google Data Analytics Professional Certificate"
+    ],
+    "recommended_projects": [
+      "Interactive Executive Business Intelligence Dashboard",
+      "Customer Retention and Churn Cohort Analysis",
+      "A/B Testing Statistical Evaluation Framework"
+    ],
+    "learning_sequence": [
+      {
+        "month": 1,
+        "topic": "SQL for Analytics & Exploratory Data Analysis",
+        "skills": ["SQL", "Databases"],
+        "deliverable": "SQL query portfolio computing rolling averages, cumulative totals, and customer retention metrics.",
+        "completion_criteria": "All queries return accurate aggregations verified against known control totals."
+      },
+      {
+        "month": 2,
+        "topic": "Statistical Foundations & Hypothesis Testing",
+        "skills": ["Statistics", "Python"],
+        "deliverable": "A/B test statistical analysis report comparing conversion rates with p-values and confidence intervals.",
+        "completion_criteria": "Analysis correctly calculates statistical significance and minimum sample sizes."
+      },
+      {
+        "month": 3,
+        "topic": "Python for Data Analysis (Pandas & NumPy)",
+        "skills": ["Python", "Analytics"],
+        "deliverable": "Jupyter Notebook conducting exploratory data analysis on a messy real-world dataset with imputation.",
+        "completion_criteria": "Cleaned dataset contains no unhandled outliers, duplicates, or corrupted data."
+      },
+      {
+        "month": 4,
+        "topic": "Data Storytelling & Visualization (Plotly/Seaborn)",
+        "skills": ["Data Visualization", "Python"],
+        "deliverable": "Curated data visualization report highlighting business trends with clear annotations and takeaways.",
+        "completion_criteria": "Visualizations follow accessibility guidelines and communicate findings clearly."
+      },
+      {
+        "month": 5,
+        "topic": "BI Dashboard Engineering (Power BI / Streamlit)",
+        "skills": ["Data Visualization", "Analytics"],
+        "deliverable": "Interactive dashboard enabling filtering, drill-downs, and dynamic metric calculations.",
+        "completion_criteria": "Stakeholders can filter by date, region, and segment with sub-second response times."
+      },
+      {
+        "month": 6,
+        "topic": "Comprehensive Analytical Case Study & Presentation",
+        "skills": ["Data Visualization", "Statistics", "SQL"],
+        "deliverable": "End-to-end analytical project providing data-driven recommendations for a business problem.",
+        "completion_criteria": "Report includes executive summary, methodology, actionable suggestions, and code repo."
+      }
+    ]
+  },
+  {
+    "role_name": "Cybersecurity Analyst",
+    "description": "Protects digital assets, detects vulnerabilities, monitors threat activities, and implements security controls across enterprise networks and systems.",
+    "interests": [
+      "Security",
+      "Networking",
+      "Cybersecurity",
+      "Linux",
+      "Forensics"
+    ],
+    "industries": [
+      "Banking",
+      "Defense",
+      "Healthcare",
+      "Government",
+      "Technology"
+    ],
+    "required_skills": [
+      {
+        "name": "Security",
+        "importance": 5,
+        "target_proficiency": 8
+      },
+      {
+        "name": "Networking",
+        "importance": 5,
+        "target_proficiency": 8
+      },
+      {
+        "name": "Linux",
+        "importance": 4,
+        "target_proficiency": 7
+      },
+      {
+        "name": "Python",
+        "importance": 3,
+        "target_proficiency": 6
+      },
+      {
+        "name": "Threat Analysis",
+        "importance": 4,
+        "target_proficiency": 7
+      }
+    ],
+    "optional_certifications": [
+      "CompTIA Security+",
+      "Certified Information Systems Security Professional (CISSP - Associate)",
+      "GIAC Certified Incident Handler (GCIH)"
+    ],
+    "recommended_projects": [
+      "Automated Port Scanner and Vulnerability Detector",
+      "SIEM Log Analysis and Alerting Lab with Wazuh or Splunk",
+      "Network Packet Inspection and Intrusion Detection Tool"
+    ],
+    "learning_sequence": [
+      {
+        "month": 1,
+        "topic": "Networking Protocols & Traffic Analysis",
+        "skills": ["Networking", "Security"],
+        "deliverable": "Wireshark packet capture analysis report identifying anomalous TCP handshakes and DNS queries.",
+        "completion_criteria": "Accurately classifies malicious vs legitimate network traffic patterns."
+      },
+      {
+        "month": 2,
+        "topic": "Linux Systems Hardening & Security Controls",
+        "skills": ["Linux", "Security"],
+        "deliverable": "Hardened Linux server configuration enforcing CIS benchmarks, firewall rules, and auditd policies.",
+        "completion_criteria": "Automated security scanner confirms reduction of attack surface."
+      },
+      {
+        "month": 3,
+        "topic": "Vulnerability Assessment & Threat Modeling",
+        "skills": ["Threat Analysis", "Security"],
+        "deliverable": "STRIDE threat model and vulnerability assessment for a web application architecture.",
+        "completion_criteria": "Identification of top vulnerabilities with CVSS scores and remediation steps."
+      },
+      {
+        "month": 4,
+        "topic": "Security Scripting & Automation with Python",
+        "skills": ["Python", "Security"],
+        "deliverable": "Python script parsing authentication logs to detect brute-force login attempts and notify administrators.",
+        "completion_criteria": "Script triggers real-time alerts upon exceeding threshold failure attempts."
+      },
+      {
+        "month": 5,
+        "topic": "SIEM Configuration & Incident Detection",
+        "skills": ["Threat Analysis", "Networking"],
+        "deliverable": "SIEM alert rule set mapping attack behaviors to the MITRE ATT&CK matrix.",
+        "completion_criteria": "Simulated attacks trigger appropriate severity alerts within 30 seconds."
+      },
+      {
+        "month": 6,
+        "topic": "Incident Response Drill & Security Capstone",
+        "skills": ["Security", "Threat Analysis", "Linux"],
+        "deliverable": "Comprehensive incident response report documenting containment, eradication, and post-mortem analysis.",
+        "completion_criteria": "Clear root-cause analysis and prioritized defensive hardening plan delivered."
+      }
+    ]
+  },
+  {
+    "role_name": "Full-Stack Developer",
+    "description": "Builds complete, responsive web applications spanning dynamic client-side user interfaces, backend APIs, and database persistence layers.",
+    "interests": [
+      "Web Development",
+      "Frontend",
+      "Backend",
+      "JavaScript",
+      "Software Engineering"
+    ],
+    "industries": [
+      "SaaS",
+      "E-Commerce",
+      "Startups",
+      "Media",
+      "Enterprise Tech"
+    ],
+    "required_skills": [
+      {
+        "name": "JavaScript",
+        "importance": 5,
+        "target_proficiency": 8
+      },
+      {
+        "name": "Python",
+        "importance": 4,
+        "target_proficiency": 7
+      },
+      {
+        "name": "Web Development",
+        "importance": 5,
+        "target_proficiency": 8
+      },
+      {
+        "name": "Databases",
+        "importance": 4,
+        "target_proficiency": 7
+      },
+      {
+        "name": "Git",
+        "importance": 3,
+        "target_proficiency": 7
+      }
+    ],
+    "optional_certifications": [
+      "Meta Front-End Developer Certificate",
+      "AWS Certified Developer - Associate"
+    ],
+    "recommended_projects": [
+      "Full-Stack Collaborative Task Management Application",
+      "E-Commerce Web Application with Stripe Integration",
+      "Real-Time Chat Application with WebSockets"
+    ],
+    "learning_sequence": [
+      {
+        "month": 1,
+        "topic": "Frontend Core: HTML5, Modern CSS & JavaScript",
+        "skills": ["JavaScript", "Web Development"],
+        "deliverable": "Responsive modern web interface with responsive layouts, semantic markup, and DOM interactivity.",
+        "completion_criteria": "Lighthouse score of 90+ for performance, accessibility, and SEO."
+      },
+      {
+        "month": 2,
+        "topic": "Modern Frontend Frameworks (React / Vue)",
+        "skills": ["JavaScript", "Web Development"],
+        "deliverable": "Single-page application featuring component state management, routing, and optimistic UI updates.",
+        "completion_criteria": "State updates efficiently without unnecessary re-renders or layout shifts."
+      },
+      {
+        "month": 3,
+        "topic": "Backend API Development with Python / Node.js",
+        "skills": ["Python", "Web Development"],
+        "deliverable": "RESTful API with input validation, JWT authentication, and structured error responses.",
+        "completion_criteria": "All endpoints conform to OpenAPI specs and pass automated integration tests."
+      },
+      {
+        "month": 4,
+        "topic": "Database Architecture & ORM Integration",
+        "skills": ["Databases", "Python"],
+        "deliverable": "Relational schema design with migration scripts, indexing, and transactional integrity.",
+        "completion_criteria": "Database queries execute without N+1 query patterns and enforce foreign key constraints."
+      },
+      {
+        "month": 5,
+        "topic": "Full-Stack Integration & State Synchronization",
+        "skills": ["JavaScript", "Python", "Databases"],
+        "deliverable": "Full-stack application connecting frontend state to backend APIs with real-time websocket updates.",
+        "completion_criteria": "Concurrent client changes synchronize across tabs with under 100ms latency."
+      },
+      {
+        "month": 6,
+        "topic": "Testing, Deployment & Full-Stack Capstone",
+        "skills": ["Web Development", "Git", "Databases"],
+        "deliverable": "Production deployed full-stack web application with automated CI/CD and database backups.",
+        "completion_criteria": "Live application deployed to cloud with SSL, monitoring, and automated test coverage."
+      }
+    ]
+  },
+  {
+    "role_name": "Backend Developer",
+    "description": "Specializes in high-performance server-side architectures, business logic implementations, database design, and microservice APIs.",
+    "interests": [
+      "Backend",
+      "Databases",
+      "APIs",
+      "Architecture",
+      "Performance"
+    ],
+    "industries": [
+      "FinTech",
+      "Enterprise Software",
+      "Logistics",
+      "Social Platforms",
+      "Gaming"
+    ],
+    "required_skills": [
+      {
+        "name": "Python",
+        "importance": 5,
+        "target_proficiency": 8
+      },
+      {
+        "name": "Databases",
+        "importance": 5,
+        "target_proficiency": 8
+      },
+      {
+        "name": "SQL",
+        "importance": 4,
+        "target_proficiency": 7
+      },
+      {
+        "name": "APIs",
+        "importance": 5,
+        "target_proficiency": 8
+      },
+      {
+        "name": "Linux",
+        "importance": 3,
+        "target_proficiency": 6
+      },
+      {
+        "name": "Git",
+        "importance": 3,
+        "target_proficiency": 7
+      }
+    ],
+    "optional_certifications": [
+      "AWS Certified Developer - Associate",
+      "Oracle Certified Professional: Java SE / Python Institute PCAP"
+    ],
+    "recommended_projects": [
+      "High-Throughput Asynchronous Payment Gateway API",
+      "Distributed Rate Limiter and Caching Layer using Redis",
+      "Event-Driven Microservices Architecture with Message Queues"
+    ],
+    "learning_sequence": [
+      {
+        "month": 1,
+        "topic": "Advanced Python & Asynchronous Programming",
+        "skills": ["Python"],
+        "deliverable": "Concurrent task execution engine using asyncio with connection pooling and timeouts.",
+        "completion_criteria": "Handles 500 concurrent network tasks without thread blocking or memory leaks."
+      },
+      {
+        "month": 2,
+        "topic": "RESTful & GraphQL API Architecture",
+        "skills": ["APIs", "Python"],
+        "deliverable": "Production REST API utilizing FastAPI with dependency injection, validation, and automated Swagger docs.",
+        "completion_criteria": "Endpoints pass contract tests and return standardized RFC-7807 error structures."
+      },
+      {
+        "month": 3,
+        "topic": "Relational & NoSQL Database Design",
+        "skills": ["Databases", "SQL"],
+        "deliverable": "Optimized database schema implementing indexing strategies, transactions, and read replicas.",
+        "completion_criteria": "Complex analytical queries show 5x query plan speedup after index tuning."
+      },
+      {
+        "month": 4,
+        "topic": "Caching Strategies & Performance Optimization",
+        "skills": ["Databases", "APIs"],
+        "deliverable": "Redis multi-layer caching layer implementing cache-aside, write-through, and cache invalidation.",
+        "completion_criteria": "Cache hit ratio exceeds 85% and reduces database load under peak traffic."
+      },
+      {
+        "month": 5,
+        "topic": "Authentication, Authorization & Security",
+        "skills": ["APIs", "Python"],
+        "deliverable": "OAuth2 / JWT authentication service with role-based access control (RBAC) and rate limiting.",
+        "completion_criteria": "Passes OWASP API Security Top 10 automated test suites with zero vulnerabilities."
+      },
+      {
+        "month": 6,
+        "topic": "Microservice Architecture & Capstone API",
+        "skills": ["APIs", "Databases", "Python"],
+        "deliverable": "Distributed backend system communicating via asynchronous message queues with idempotency.",
+        "completion_criteria": "System processes and reconciles 10,000 asynchronous messages with zero duplicates."
+      }
+    ]
+  },
+  {
+    "role_name": "Machine Learning Engineer",
+    "description": "Researches, trains, validates, and optimizes machine learning and deep learning models, integrating them into production data pipelines.",
+    "interests": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Data",
+      "Mathematics",
+      "Statistics"
+    ],
+    "industries": [
+      "Autonomous Systems",
+      "Healthcare",
+      "FinTech",
+      "Search & Recommendation",
+      "Robotics"
+    ],
+    "required_skills": [
+      {
+        "name": "Python",
+        "importance": 5,
+        "target_proficiency": 8
+      },
+      {
+        "name": "Machine Learning",
+        "importance": 5,
+        "target_proficiency": 8
+      },
+      {
+        "name": "Artificial Intelligence",
+        "importance": 5,
+        "target_proficiency": 8
+      },
+      {
+        "name": "Statistics",
+        "importance": 4,
+        "target_proficiency": 7
+      },
+      {
+        "name": "MLOps",
+        "importance": 4,
+        "target_proficiency": 6
+      },
+      {
+        "name": "Data Pipelines",
+        "importance": 3,
+        "target_proficiency": 6
+      }
+    ],
+    "optional_certifications": [
+      "TensorFlow Developer Certificate",
+      "AWS Certified Machine Learning - Specialty",
+      "Google Cloud Professional Machine Learning Engineer"
+    ],
+    "recommended_projects": [
+      "End-to-End Deep Learning Classifier with Experiment Tracking",
+      "Personalized Recommendation System with Collaborative Filtering",
+      "Fine-Tuned Domain-Specific Language Model Pipeline"
+    ],
+    "learning_sequence": [
+      {
+        "month": 1,
+        "topic": "Applied Mathematics, Linear Algebra & NumPy",
+        "skills": ["Statistics", "Python"],
+        "deliverable": "From-scratch implementation of gradient descent, linear regression, and logistic regression algorithms.",
+        "completion_criteria": "From-scratch models match scikit-learn convergence and accuracy within 1% margin."
+      },
+      {
+        "month": 2,
+        "topic": "Supervised & Unsupervised Machine Learning",
+        "skills": ["Machine Learning", "Python"],
+        "deliverable": "Comprehensive model benchmarking notebook evaluating Random Forests, XGBoost, and clustering.",
+        "completion_criteria": "Model validation utilizes k-fold cross-validation with proper feature leakage prevention."
+      },
+      {
+        "month": 3,
+        "topic": "Deep Learning Architectures (PyTorch)",
+        "skills": ["Artificial Intelligence", "Machine Learning"],
+        "deliverable": "Convolutional and transformer models built and trained in PyTorch with custom datasets.",
+        "completion_criteria": "Model achieves target metric on validation set without severe overfitting."
+      },
+      {
+        "month": 4,
+        "topic": "Model Evaluation, Interpretability & Tracking",
+        "skills": ["Machine Learning", "MLOps"],
+        "deliverable": "Experiment tracking setup with MLflow logging hyperparameters, loss curves, and artifact weights.",
+        "completion_criteria": "All model runs are reproducible with exact Git commit hash and seed tracking."
+      },
+      {
+        "month": 5,
+        "topic": "Model Optimization & Quantization",
+        "skills": ["Machine Learning", "Python"],
+        "deliverable": "Quantized and pruned model deployed using ONNX runtime with latency benchmarking.",
+        "completion_criteria": "Inference latency reduced by at least 2.5x with less than 2% drop in accuracy."
+      },
+      {
+        "month": 6,
+        "topic": "Production Machine Learning Capstone System",
+        "skills": ["Machine Learning", "Artificial Intelligence", "MLOps"],
+        "deliverable": "Deployed machine learning service with automated model retraining pipeline and data drift detection.",
+        "completion_criteria": "System automatically alerts on data distribution drift and triggers retraining workflow."
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+---
+description: Enforce ethical and safe career advising by prohibiting employment guarantees, fabricated evidence, protected-trait bias, and unsupported market claims
+globs: "*.py, *.json, *.md, .cursor/**"
+alwaysApply: true
+---
+
+# Career Recommendation Safety Rule
+
+All career recommendations and advising components must strictly adhere to educational safety guidelines:
+
+1. **NO Employment Guarantees:**
+   - Recommendations represent educational pathways and learning guides, NEVER a guarantee of employment, job placement, interview calls, or compensation.
+
+2. **NO Fabricated Student Evidence:**
+   - Never invent, assume, or hallucinate skills, projects, certifications, education, or achievements not supplied by the student.
+
+3. **NO Protected-Characteristic Bias:**
+   - Evaluation must depend solely on validated competencies, stated interests, and study availability. Never incorporate or infer age, gender, race, religion, nationality, or disability.
+
+4. **NO Negative Labeling:**
+   - Provide constructive, forward-looking skill gap identification rather than derogatory language or deficit labeling.
+
+5. **NO Unsupported Real-Time Market Claims:**
+   - Do not claim local role data reflects live hiring-market conditions. Role profiles represent technology industry curriculum benchmarks.

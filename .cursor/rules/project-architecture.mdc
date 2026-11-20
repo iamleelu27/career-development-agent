@@ -1,0 +1,31 @@
+---
+description: Enforce architectural separation between UI, orchestration, data loading, scoring, and roadmap logic
+globs: "*.py"
+alwaysApply: true
+---
+
+# Project Architecture Rule
+
+Maintain strict modular decoupling across the codebase:
+
+1. **User Interface Isolation (`app.py`):**
+   - The UI must contain presentation logic, input collection, and display widgets only.
+   - Do NOT embed mathematical scoring formulas, data ingestion, or roadmap scheduling inside `app.py`.
+
+2. **Workflow Orchestration (`career_agent.py`):**
+   - Acts as the central pipeline coordinator connecting data loading, scoring, and roadmap generation.
+   - Converts domain objects into user-facing report models.
+
+3. **Data Loading (`data_loader.py`):**
+   - Responsible for file I/O, path resolution via `pathlib.Path`, and Pydantic schema validation.
+   - Must not perform scoring or business recommendation logic.
+
+4. **Skill Engine (`skill_engine.py`):**
+   - Encapsulates canonical skill alias normalization, proficiency comparisons, and gap prioritization.
+
+5. **Recommendation Engine (`recommendation_engine.py`):**
+   - Encapsulates the 5-factor scoring model (Skill 50%, Interest 20%, Project 15%, Cert 10%, Industry 5%).
+   - All scoring must remain strictly deterministic.
+
+6. **Roadmap Engine (`roadmap_engine.py`):**
+   - Responsible for generating the 7-day quick-start plan and multi-month milestone roadmaps.
